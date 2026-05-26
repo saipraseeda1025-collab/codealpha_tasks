@@ -1,0 +1,55 @@
+.product-card{
+
+  background:#0f172a;
+
+  border-radius:20px;
+
+  overflow:hidden;
+
+  transition:0.4s;
+
+  cursor:pointer;
+}
+
+.product-card:hover{
+
+  transform:translateY(-10px);
+
+  box-shadow:0 0 25px #9333ea;
+}
+
+.product-card img{
+
+  width:100%;
+
+  height:250px;
+
+  object-fit:cover;
+}
+
+.product-content{
+
+  padding:20px;
+}
+
+.product-content p{
+
+  color:#9333ea;
+
+  margin:15px 0;
+}
+
+.product-content button{
+
+  width:100%;
+
+  padding:15px;
+
+  border:none;
+
+  border-radius:10px;
+
+  background:#9333ea;
+
+  color:white;
+}
